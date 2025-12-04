@@ -22,19 +22,17 @@ from urllib.parse import quote_plus
 import aiosqlite
 import aiohttp
 from aiohttp import web
-import discord
-from discord import app_commands
-from discord.ext import commands
+import discord 
 
 # -----------------------------
 # CONFIG - REPLACE THESE VALUES or set environment variables
 # -----------------------------
-TOKEN = os.getenv("TOKEN") or "PLACEHOLDER_BOT_TOKEN"
-CLIENT_ID = os.getenv("CLIENT_ID") or "PLACEHOLDER_OAUTH_CLIENT_ID"
-CLIENT_SECRET = os.getenv("CLIENT_SECRET") or "PLACEHOLDER_OAUTH_CLIENT_SECRET"
+TOKEN = os.getenv("TOKEN") or "MTQ0NjI0MDYyMzEwMjM5ODQ4Ng.GlyObt.MvMIxsXbitfvfZZuk91WdrQldweVs-AtVVyJSQ"
+CLIENT_ID = os.getenv("CLIENT_ID") or "1446240623102398486"
+CLIENT_SECRET = os.getenv("CLIENT_SECRET") or "4EL4Oe9jQmp7ozabhivpkMiwjxkFg8ip"
 REDIRECT_URI = os.getenv("REDIRECT_URI") or "http://localhost:8080/oauth/callback"  # Must match Discord Developer Portal redirect
-GUILD_ID = int(os.getenv("GUILD_ID") or 123456789012345678)  # The guild id where you want to add the user
-VERIFY_ROLE_ID = int(os.getenv("VERIFY_ROLE_ID") or 111111111111111111)  # Role to GIVE on verify (placeholder)
+GUILD_ID = int(os.getenv("GUILD_ID") or 1446112569109778454)  # The guild id where you want to add the user
+VERIFY_ROLE_ID = int(os.getenv("VERIFY_ROLE_ID") or 1446133334068432936)  # Role to GIVE on verify (placeholder)
 UNVERIFIED_ROLE_ID = int(os.getenv("UNVERIFIED_ROLE_ID") or 222222222222222222)  # Role to REMOVE on verify (placeholder)
 RULES_WEBHOOK_URL = os.getenv("RULES_WEBHOOK_URL") or "https://discord.com/api/webhooks/1446252140317249669/xoc_R91bgV1YdrZ5IJiPSix4xnOXpYrJDsaCq-odgT8gwAbF9yEcsusDeKiPX3TuLCuj"  # Optional: set to a webhook URL if you want webhook posting
 OAUTH_SCOPES = ["identify", "guilds.join"]  # scopes to request
