@@ -11,7 +11,7 @@ from discord import app_commands
 from discord.ext import commands
 
 # -----------------------------
-# CONFIG - LOAD FROM ENV
+# CONFIG - LOAD FROM EN
 # -----------------------------
 BOT_TOKEN = os.getenv("TOKEN")
 CLIENT_ID = os.getenv("CLIENT_ID")
