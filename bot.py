@@ -36,7 +36,7 @@ REDIRECT_URI = os.getenv("REDIRECT_URI") or "http://localhost:8080/oauth/callbac
 GUILD_ID = int(os.getenv("GUILD_ID") or 123456789012345678)  # The guild id where you want to add the user
 VERIFY_ROLE_ID = int(os.getenv("VERIFY_ROLE_ID") or 111111111111111111)  # Role to GIVE on verify (placeholder)
 UNVERIFIED_ROLE_ID = int(os.getenv("UNVERIFIED_ROLE_ID") or 222222222222222222)  # Role to REMOVE on verify (placeholder)
-RULES_WEBHOOK_URL = os.getenv("RULES_WEBHOOK_URL") or "PLACEHOLDER_WEBHOOK_URL"  # Optional: set to a webhook URL if you want webhook posting
+RULES_WEBHOOK_URL = os.getenv("RULES_WEBHOOK_URL") or "https://discord.com/api/webhooks/1446252140317249669/xoc_R91bgV1YdrZ5IJiPSix4xnOXpYrJDsaCq-odgT8gwAbF9yEcsusDeKiPX3TuLCuj"  # Optional: set to a webhook URL if you want webhook posting
 OAUTH_SCOPES = ["identify", "guilds.join"]  # scopes to request
 
 # OAuth endpoints
