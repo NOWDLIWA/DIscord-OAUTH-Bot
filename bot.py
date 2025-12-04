@@ -1,28 +1,15 @@
-"""
-bot.py  -- Single-file Discord bot + OAuth webserver + webhook sender + verify button
-
-How to use:
-1. Fill in the PLACEHOLDER_* constants below or set the corresponding environment variables.
-2. In Discord Developer Portal:
-   - Create an application, then a Bot.
-   - Add a Redirect URI matching REDIRECT_URI below (e.g. https://yourdomain.com/oauth/callback or http://localhost:8080/oauth/callback for testing).
-   - Note CLIENT_ID and CLIENT_SECRET.
-   - Ensure your OAuth2 client requests the 'identify' and 'guilds.join' scopes (users must consent).
-3. Invite the bot to the target guild with the bot invite (permissions as needed).
-4. python -m venv .venv && source .venv/bin/activate
-   pip install -r requirements.txt
-   TOKEN=your_bot_token python bot.py
-"""
-
 import asyncio
 import os
+import secrets
 from typing import Optional
-from urllib.parse import quote_plus
+from urllib.parse import urlencode
 
 import aiosqlite
 import aiohttp
 from aiohttp import web
-import discord 
+import discord
+from discord import app_commands
+from discord.ext import commands
 
 # -----------------------------
 # CONFIG - REPLACE THESE VALUES or set environment variables
