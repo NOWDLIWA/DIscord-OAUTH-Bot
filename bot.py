@@ -14,7 +14,7 @@ from discord.ext import commands
 # -----------------------------
 # CONFIG - REPLACE THESE VALUES or set environment variables
 # -----------------------------
-TOKEN = os.getenv("TOKEN") or "MTQ0NjI0MDYyMzEwMjM5ODQ4Ng.GlyObt.MvMIxsXbitfvfZZuk91WdrQldweVs-AtVVyJSQ"
+BOT_TOKEN = os.getenv("TOKEN")
 CLIENT_ID = os.getenv("CLIENT_ID") or "1446240623102398486"
 CLIENT_SECRET = os.getenv("CLIENT_SECRET") or "4EL4Oe9jQmp7ozabhivpkMiwjxkFg8ip"
 REDIRECT_URI = os.getenv("REDIRECT_URI") or "http://localhost:8080/oauth/callback"  # Must match Discord Developer Portal redirect
@@ -269,7 +269,7 @@ async def on_ready():
 async def main():
     # start web server before bot
     await start_web_app()
-    await bot.start(TOKEN)
+    await bot.start(BOT_TOKEN)
 
 if __name__ == "__main__":
     try:
