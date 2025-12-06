@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 flask>=2.0
 requests>=2.28
 python-dotenv>=1.0
 discord.py>=2.0.0
+=======
+discord.py>=2.3.2
+aiohttp>=3.8.4
+aiosqlite>=0.18.0
+>>>>>>> 25cc2babb2e9ecec5a5bdf56f008b3e6ef6a4fcc

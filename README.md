@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Discord OAuth Join Bot with Verification System
 
 A Discord bot with OAuth2 join flow + a beautiful verification system in a single `main.py`.
@@ -121,3 +122,6 @@ git push -u origin main
 - **Verification fails** — Ensure bot has Manage Roles permission and that `RULES_ROLE_ID` exists.
 - **Users can't see verify channel** — Run `.setup` to create Unverified role and sync permissions.
 
+=======
+# DIscord-OAUTH-Bot
+>>>>>>> 25cc2babb2e9ecec5a5bdf56f008b3e6ef6a4fcc
