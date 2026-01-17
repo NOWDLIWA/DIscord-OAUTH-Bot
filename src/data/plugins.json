@@ -1,0 +1,116 @@
+{
+  "plugins": [
+    {
+      "name": "LSPDFR",
+      "category": "Essential",
+      "description": "The core LSPD First Response modification",
+      "url": "https://www.lcpdfr.com/downloads/gta5mods/g17media/7792-lspd-first-response/",
+      "required": true
+    },
+    {
+      "name": "RagePluginHook",
+      "category": "Essential",
+      "description": "Required framework for running LSPDFR and other plugins",
+      "url": "https://ragepluginhook.net/",
+      "required": true
+    },
+    {
+      "name": "ELS (Emergency Lighting System)",
+      "category": "Essential",
+      "description": "Advanced emergency vehicle lighting system",
+      "url": "https://www.lcpdfr.com/downloads/gta5mods/scripts/13865-emergency-lighting-system/",
+      "required": false
+    },
+    {
+      "name": "CompuLite",
+      "category": "Recommended",
+      "description": "Lightweight computer system for police work",
+      "url": "https://www.lcpdfr.com/downloads/gta5mods/scripts/28950-compulite/",
+      "required": false
+    },
+    {
+      "name": "Stop The Ped",
+      "category": "Recommended",
+      "description": "Enhanced traffic stop interactions",
+      "url": "https://www.lcpdfr.com/downloads/gta5mods/scripts/7151-stop-the-ped/",
+      "required": false
+    },
+    {
+      "name": "Police SmartRadio",
+      "category": "Recommended",
+      "description": "Realistic police radio communications",
+      "url": "https://www.lcpdfr.com/downloads/gta5mods/scripts/8151-police-smartradio/",
+      "required": false
+    },
+    {
+      "name": "InteractionPlus",
+      "category": "Popular",
+      "description": "Additional player interactions and features",
+      "url": "https://www.lcpdfr.com/downloads/gta5mods/scripts/20913-interaction/",
+      "required": false
+    },
+    {
+      "name": "Better EMS",
+      "category": "Popular",
+      "description": "Enhanced EMS/Fire department gameplay",
+      "url": "https://www.lcpdfr.com/downloads/gta5mods/scripts/11867-better-ems/",
+      "required": false
+    },
+    {
+      "name": "Ultimate Backup",
+      "category": "Popular",
+      "description": "Enhanced backup unit system",
+      "url": "https://www.lcpdfr.com/downloads/gta5mods/scripts/8774-ultimate-backup/",
+      "required": false
+    },
+    {
+      "name": "ComputerPlus",
+      "category": "Popular",
+      "description": "Full-featured in-car computer system",
+      "url": "https://www.lcpdfr.com/downloads/gta5mods/scripts/8853-lspdfr-computer/",
+      "required": false
+    },
+    {
+      "name": "Code 3 Callouts",
+      "category": "Callouts",
+      "description": "Additional police callout scenarios",
+      "url": "https://www.lcpdfr.com/downloads/gta5mods/scripts/7792-code-3-callouts/",
+      "required": false
+    },
+    {
+      "name": "United Callouts",
+      "category": "Callouts",
+      "description": "Pack of diverse police callouts",
+      "url": "https://www.lcpdfr.com/downloads/gta5mods/scripts/13298-unitedcallouts/",
+      "required": false
+    },
+    {
+      "name": "Assorted Callouts",
+      "category": "Callouts",
+      "description": "Various additional callout types",
+      "url": "https://www.lcpdfr.com/downloads/gta5mods/scripts/8756-assorted-callouts/",
+      "required": false
+    },
+    {
+      "name": "BarbarianCall",
+      "category": "Callouts",
+      "description": "High-intensity callout pack",
+      "url": "https://www.lcpdfr.com/downloads/gta5mods/scripts/11643-barbariancall/",
+      "required": false
+    },
+    {
+      "name": "Arrest Manager",
+      "category": "Utilities",
+      "description": "Enhanced arrest and detention system",
+      "url": "https://www.lcpdfr.com/downloads/gta5mods/scripts/8891-arrest-manager/",
+      "required": false
+    },
+    {
+      "name": "Pursuit Tactics",
+      "category": "Utilities",
+      "description": "Advanced pursuit options and tactics",
+      "url": "https://www.lcpdfr.com/downloads/gta5mods/scripts/7963-pursuit-tactics/",
+      "required": false
+    }
+  ]
+}

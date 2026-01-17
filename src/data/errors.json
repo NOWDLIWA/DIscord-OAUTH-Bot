@@ -1,0 +1,129 @@
+{
+  "errors": [
+    {
+      "code": "RPH001",
+      "name": "RagePluginHook Failed to Initialize",
+      "description": "RagePluginHook cannot start or fails during initialization",
+      "keywords": ["failed to initialize", "ragepluginhook", "initialization error"],
+      "solutions": [
+        "Ensure GTA V is running as administrator",
+        "Update RagePluginHook to the latest version",
+        "Verify GTA V is updated to the latest version",
+        "Check for conflicting ASI loaders",
+        "Reinstall RagePluginHook"
+      ]
+    },
+    {
+      "code": "SHV001",
+      "name": "ScriptHookV Not Found",
+      "description": "ScriptHookV is missing or not properly installed",
+      "keywords": ["scripthookv", "not found", "missing dll"],
+      "solutions": [
+        "Download latest ScriptHookV from dev-c.com",
+        "Extract dinput8.dll and ScriptHookV.dll to GTA V root folder",
+        "Ensure you're using the correct version for your GTA V version",
+        "Verify GTA V is not updated beyond ScriptHookV support"
+      ]
+    },
+    {
+      "code": "LSPDFR001",
+      "name": "LSPDFR Plugin Load Failure",
+      "description": "LSPDFR fails to load or crashes on startup",
+      "keywords": ["lspdfr", "failed to load", "plugin crash"],
+      "solutions": [
+        "Ensure RagePluginHook is up to date",
+        "Check for plugin conflicts in the plugins folder",
+        "Verify all dependencies are installed (ELS, LSPDFR+, etc.)",
+        "Clear the RPH cache folder",
+        "Reinstall LSPDFR"
+      ]
+    },
+    {
+      "code": "MEM001",
+      "name": "Out of Memory Error",
+      "description": "Game crashes due to insufficient memory",
+      "keywords": ["out of memory", "memory allocation", "heap corruption"],
+      "solutions": [
+        "Reduce number of active plugins",
+        "Lower in-game graphics settings",
+        "Use Heap Adjuster mod",
+        "Install Packfile Limit Adjuster",
+        "Close background applications"
+      ]
+    },
+    {
+      "code": "VER001",
+      "name": "Version Mismatch",
+      "description": "Plugin version incompatible with game or dependencies",
+      "keywords": ["version mismatch", "incompatible version", "outdated"],
+      "solutions": [
+        "Update all plugins to latest versions",
+        "Check plugin compatibility with current GTA V version",
+        "Downgrade GTA V if using outdated plugins",
+        "Check LSPDFR forums for compatibility information"
+      ]
+    },
+    {
+      "code": "ELS001",
+      "name": "ELS Configuration Error",
+      "description": "Emergency Lighting System fails to load or configure properly",
+      "keywords": ["els", "emergency lighting", "configuration"],
+      "solutions": [
+        "Verify ELS.dll is in the plugins folder",
+        "Check ELS.ini for syntax errors",
+        "Ensure vehicle ELS files are properly formatted",
+        "Update ELS to latest version",
+        "Check for conflicting lighting mods"
+      ]
+    },
+    {
+      "code": "CRASH001",
+      "name": "Random Game Crash",
+      "description": "Game crashes without specific error message",
+      "keywords": ["crash", "game stopped working", "fatal error"],
+      "solutions": [
+        "Check crash logs for specific errors",
+        "Disable plugins one by one to identify culprit",
+        "Verify game files through Steam/Rockstar Launcher",
+        "Update graphics drivers",
+        "Run game as administrator"
+      ]
+    },
+    {
+      "code": "ASILOAD001",
+      "name": "ASI Loader Issues",
+      "description": "ASI Loader not working or conflicts present",
+      "keywords": ["asi loader", "dinput8", "asi not loading"],
+      "solutions": [
+        "Ensure only ONE dinput8.dll is present in GTA V folder",
+        "Use the ASI Loader from ScriptHookV package",
+        "Check asiloader.log for specific errors",
+        "Verify ASI files are in the correct location"
+      ]
+    },
+    {
+      "code": "DEP001",
+      "name": "Missing Dependencies",
+      "description": "Required files or dependencies are missing",
+      "keywords": ["missing", "dependency", "required file"],
+      "solutions": [
+        "Install Visual C++ Redistributables (2013, 2015-2019)",
+        "Install .NET Framework 4.8",
+        "Verify all mod dependencies are installed",
+        "Check mod installation instructions"
+      ]
+    },
+    {
+      "code": "PLUGIN001",
+      "name": "Plugin Conflict",
+      "description": "Multiple plugins causing conflicts",
+      "keywords": ["conflict", "conflicting plugins", "incompatible"],
+      "solutions": [
+        "Disable half your plugins to identify conflicting ones",
+        "Check plugin compatibility lists",
+        "Update all plugins to latest versions",
+        "Remove duplicate or similar functionality plugins"
+      ]
+    }
+  ]
+}
