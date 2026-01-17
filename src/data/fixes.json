@@ -1,0 +1,115 @@
+{
+  "fixes": [
+    {
+      "issue": "game_wont_start",
+      "title": "Game Won't Start with LSPDFR",
+      "steps": [
+        "Verify GTA V launches without mods first",
+        "Ensure RagePluginHook is updated to latest version",
+        "Run RAGEPluginHook.exe as administrator",
+        "Check Windows Event Viewer for crash details",
+        "Temporarily move plugins folder to desktop and add back one by one"
+      ]
+    },
+    {
+      "issue": "crash_on_duty",
+      "title": "Game Crashes When Going On Duty",
+      "steps": [
+        "Update LSPDFR to the latest version",
+        "Disable callout plugins and re-enable one by one",
+        "Check for conflicting vehicle mods",
+        "Verify ELS configuration if using ELS vehicles",
+        "Clear RagePluginHook cache folder"
+      ]
+    },
+    {
+      "issue": "poor_performance",
+      "title": "Poor FPS/Performance Issues",
+      "steps": [
+        "Install Heap Adjuster and Packfile Limit Adjuster",
+        "Lower in-game graphics settings (especially MSAA, Shadows, Reflections)",
+        "Reduce number of active plugins",
+        "Limit backup units spawned",
+        "Disable unnecessary traffic and population multipliers",
+        "Close background applications"
+      ]
+    },
+    {
+      "issue": "plugins_not_loading",
+      "title": "Plugins Not Loading",
+      "steps": [
+        "Verify plugins are in correct folder (Grand Theft Auto V/plugins/LSPDFR)",
+        "Check RagePluginHook.log for specific errors",
+        "Ensure all plugin dependencies are installed",
+        "Verify .NET Framework 4.8 is installed",
+        "Check plugin is compatible with your LSPDFR version"
+      ]
+    },
+    {
+      "issue": "computer_not_working",
+      "title": "In-Car Computer Not Working",
+      "steps": [
+        "Verify you're in a police vehicle",
+        "Check that ComputerPlus or CompuLite is installed correctly",
+        "Review keybinds in plugin settings",
+        "Ensure no conflicting computer plugins are installed",
+        "Check RagePluginHook.log for errors"
+      ]
+    },
+    {
+      "issue": "traffic_stop_issues",
+      "title": "Traffic Stops Not Working Properly",
+      "steps": [
+        "Update Stop The Ped to latest version",
+        "Check keybinds haven't changed",
+        "Ensure police vehicle has proper classification",
+        "Verify you're on duty in LSPDFR",
+        "Check for conflicting traffic interaction mods"
+      ]
+    },
+    {
+      "issue": "els_not_working",
+      "title": "ELS Lights Not Working",
+      "steps": [
+        "Ensure ELS.dll is in plugins/LSPDFR folder",
+        "Verify vehicle has corresponding .xml file in ELS/pack_default",
+        "Check ELS.ini configuration",
+        "Ensure only one lighting mod is active (ELS conflicts with vanilla sirens)",
+        "Update ELS to latest version"
+      ]
+    },
+    {
+      "issue": "callouts_not_spawning",
+      "title": "No Callouts Appearing",
+      "steps": [
+        "Ensure you're on duty (F4 by default)",
+        "Check callout plugins are enabled in RagePluginHook",
+        "Verify you're in a police vehicle",
+        "Wait 2-3 minutes for callouts to generate",
+        "Check RagePluginHook.log for callout-related errors"
+      ]
+    },
+    {
+      "issue": "backup_not_arriving",
+      "title": "Backup Units Not Responding",
+      "steps": [
+        "Wait longer - backup can take time to arrive",
+        "Ensure you're using correct backup keys (default Y, U, I)",
+        "Check traffic isn't blocking spawn points",
+        "Verify Ultimate Backup or similar plugin is installed and working",
+        "Try calling backup from different locations"
+      ]
+    },
+    {
+      "issue": "rage_freezing",
+      "title": "RagePluginHook Freezing/Hanging",
+      "steps": [
+        "Update to latest RagePluginHook version",
+        "Disable plugins one by one to identify cause",
+        "Clear RagePluginHook cache",
+        "Run as administrator",
+        "Check for Windows updates"
+      ]
+    }
+  ]
+}

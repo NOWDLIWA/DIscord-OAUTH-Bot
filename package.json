@@ -1,0 +1,28 @@
+{
+  "name": "lspdfr-helper-bot",
+  "version": "2.0.0",
+  "description": "Feature-rich Discord bot for LSPDFR troubleshooting and log analysis",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "lspdfr",
+    "gta5",
+    "troubleshooting",
+    "log-analysis"
+  ],
+  "author": "YoBoyCols",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1",
+    "better-sqlite3": "^9.2.2"
+  },
+  "engines": {
+    "node": ">=16.9.0"
+  }
+}
